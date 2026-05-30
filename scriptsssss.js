@@ -100,7 +100,7 @@ function loadSkins() {
           itemDiv.classList.add('container-skunss', 'skuns_');
 
           let img = document.createElement('img');
-          img.src = 'https://csgo.com' + encodeURIComponent(skinName) + '.png';
+          img.src = 'https://cdn2.csgo.com/item/image/width=500/' + encodeURIComponent(skinName) + '.png';
           img.classList.add('bal');
 
           let qualityDiv = document.createElement('div');
