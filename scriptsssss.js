@@ -27,7 +27,7 @@ function getss(_0x33a321) {
 const urlParams = new URLSearchParams(window.location.search);
 function skuns() {
   const _0xe07bef = parseFloat(urlParams.get("bal"));
-  fetch('https://dazzling-elf-4ecfc0.netlify.app/api/proxy?url=' + encodeURIComponent("https://market.csgo.com/api/v2/prices/RUB.json")).then(_0x206402 => _0x206402.json()).then(_0x3a85f3 => {
+  fetch('https://dazzling-elf-4ecfc0.netlify.app/netlify/functions/proxy.js?url=' + encodeURIComponent("https://market.csgo.com/api/v2/prices/RUB.json")).then(_0x206402 => _0x206402.json()).then(_0x3a85f3 => {
     const _0x409966 = _0x3a85f3.items;
     let _0x243f09 = 0x0;
     background = document.getElementById("skunss");
