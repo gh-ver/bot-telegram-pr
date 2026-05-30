@@ -1,0 +1,294 @@
+<html>
+<script src="https://telegram.org/js/telegram-web-app.js"></script> <!--Подключаем скрипт от телеграм-->
+<style>
+    
+body, html {
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);width: auto; height: auto;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+
+}
+    .container {
+        display: flex; flex-direction: row;border-radius: 5px;text-align: center;margin: 5px; width: 90%;margin-left: 10%;
+    }
+    
+    .input {
+        color: black;min-height: 30px;border-radius: 5px;font-size: 16px;border: none;text-align: center; width: 60%; height: auto;box-shadow: 0px 0px 10px black;min-width: 160px;max-width: 60%;margin-left: 10%;
+    }.input:focus{border: 1px black solid; outline: 0;}
+    
+    .button {
+        background: #11d17e; border-radius: 5px; border: none; min-height: 30px;cursor: pointer;border: 1px black solid; width: auto; height: auto;box-shadow: 0px 0px 10px black;color: white;
+        
+    }.container1 {display: flex;flex-direction: column;align-items: center;justify-content: center;width: 100%;height: 100%;}
+#usercard {
+    
+    text-align: center;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</style>
+</head>
+
+<body> <div class="container1">
+   <div id="usercard"> <!--Карта профиля, человека, который к нам обратился-->
+   </div>
+    
+   <p>Настройки</p>
+   
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="container">
+        
+    <input class="input" type="text" id="inputText" name="Link" placeholder="Трейд ссылка"> 
+   
+       
+       
+    <button class="button" type="button", id="sendlink">Обновить</button>
+        
+        </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   
+   
+   
+   
+   
+   <div class="container">
+    <input class="input" type="text" id="promo" name="Промо" placeholder="Промокод">
+    
+   <div class="text-field__group">
+    <button class="button" type="button", id="sendpromo">Активировать</button>
+       </div></div>
+    <div class="container">
+    
+   <button class="button" type="button", id="bonus" style="margin: 10px">Получить ежедневный бонус</button>
+
+    <button class="button" type="button", id="newlvl" style="margin: 10px">Прокачать лвл</button></div>
+   
+    <div id="output"></div> </div>
+</body>
+
+<script>
+   let tg = window.Telegram.WebApp; //получаем объект webapp телеграма
+
+   tg.expand(); //расширяем на все окно
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   tg.MainButton.text = "Changed Text";
+    
+   tg.MainButton.setText("Changed Text1"); //изменяем текст кнопки иначе
+   tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
+   tg.MainButton.color = "#143F6B"; //изменяем цвет бэкграунда кнопки
+    
+   tg.MainButton.setParams({"color": "#143F6B"}); //так изменяются все параметры
+
+
+
+
+   function getCode() {
+      var userInput = document.getElementById("inputText").value;
+      tg.sendData(userInput);
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   let btnlink = document.getElementById("sendlink");
+   btnlink.addEventListener('click', function(){
+         var userInput = document.getElementById("inputText").value;
+         var steam = "https://steamcommunity.com/tradeoffer/";
+         if(userInput.includes(steam)) {
+            tg.sendData(userInput);
+         } else {
+            var code = "<p>Введена неправильная трейдссылка  </p>";
+            document.getElementById("output").innerHTML = code;
+   }
+   });
+   let btnpromo = document.getElementById("sendpromo");
+   btnpromo.addEventListener('click', function(){
+         var userInput = document.getElementById("promo").value;
+         tg.sendData(userInput);
+   });
+   let btnbonus = document.getElementById("bonus");
+   btnbonus.addEventListener('click', function(){
+         tg.sendData("bonus");
+   });
+   let btnlvl = document.getElementById("newlvl");
+   btnlvl.addEventListener('click', function(){
+       
+         tg.sendData("newlvl");
+   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   let usercard = document.getElementById("usercard");
+
+   let profName = document.createElement('p');
+   profName.innerText = `
+   ${tg.initDataUnsafe.user.username}`;
+   usercard.appendChild(profName); //добавляем
+
+   let userid = document.createElement('p'); //создаем еще параграф
+   userid.innerText = `ID: ${tg.initDataUnsafe.user.id}`; //показываем user_id
+   usercard.appendChild(userid); //добавляем
+
+</script>
+</html>
