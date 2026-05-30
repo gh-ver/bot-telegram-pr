@@ -1,1 +1,155 @@
-function _0xfb0c(_0x2c9496,_0x483dd7){const _0x40ee60=_0x40ee();return _0xfb0c=function(_0xfb0c89,_0x31fe3e){_0xfb0c89=_0xfb0c89-0x167;let _0x59fb4b=_0x40ee60[_0xfb0c89];return _0x59fb4b;},_0xfb0c(_0x2c9496,_0x483dd7);}const _0x494d8c=_0xfb0c;(function(_0x5053b8,_0x987086){const _0x47d0d9=_0xfb0c,_0x5d959d=_0x5053b8();while(!![]){try{const _0x49a344=-parseInt(_0x47d0d9(0x1a5))/0x1*(parseInt(_0x47d0d9(0x176))/0x2)+parseInt(_0x47d0d9(0x1a3))/0x3+parseInt(_0x47d0d9(0x181))/0x4+parseInt(_0x47d0d9(0x18c))/0x5*(-parseInt(_0x47d0d9(0x18e))/0x6)+parseInt(_0x47d0d9(0x168))/0x7+-parseInt(_0x47d0d9(0x16a))/0x8+-parseInt(_0x47d0d9(0x19f))/0x9*(-parseInt(_0x47d0d9(0x170))/0xa);if(_0x49a344===_0x987086)break;else _0x5d959d['push'](_0x5d959d['shift']());}catch(_0xa01b49){_0x5d959d['push'](_0x5d959d['shift']());}}}(_0x40ee,0xd8059),lustss={'field-tested':'ft','minimal\x20wear':'mw','well-worn':'ww','battle-scarred':'bs','factory\x20new':'fn'});const datas=[];function _0x40ee(){const _0x439afe=['appendChild','bal','9ytiUmD','createElement','display','catch','3081888aUQmxT','classList','14487gyXUms','skunss','3836091vIJKNV','https://cdn2.csgo.com/item/image/width=500/','13305776bdjBhk','location','fadeOut\x200.2s\x20forwards','price','then','img','24750620tJmkYq','skuns_','texts','find','push','qualuty','230LCWjol','getElementById','png','stringify','none','search','DOMContentLoaded','error','flex','https://market.csgo.com/api/v2/prices/RUB.json','hashs','3555396zKuKcQ','.png','sendData','WebApp','click','test','innerText','forEach','div','src','confurm','610VbravK','items','35664NDhkkT','style','animation','add','Некорректный\x20баланс','onclick','skuns','innerHTML','games_indexs-items','fadeIn\x201s\x20forwards\x20reverse','json','fadeIn\x200.2s\x20forwards','container-skunss','addEventListener','Telegram'];_0x40ee=function(){return _0x439afe;};return _0x40ee();}function get(_0xb8ab80){const _0x317a2f=_0xfb0c;document[_0x317a2f(0x177)]('confurm')['style'][_0x317a2f(0x190)]=_0x317a2f(0x199),setTimeout(()=>{const _0xabb4fe=_0x317a2f;document[_0xabb4fe(0x177)]('confurm')['style'][_0xabb4fe(0x1a1)]=_0xabb4fe(0x17e);},0x64);const _0x207515=datas[_0x317a2f(0x173)](_0x5dbbf0=>_0x5dbbf0['qu']===_0xb8ab80);document[_0x317a2f(0x177)](_0x317a2f(0x172))[_0x317a2f(0x195)]='Нажмите\x20кнопку\x20подтвердить\x20чтобы\x20купить\x20скин\x20<br>'+_0x207515[_0x317a2f(0x180)],document[_0x317a2f(0x177)]('button')['onclick']=function(){getss(_0xb8ab80);},document[_0x317a2f(0x177)](_0x317a2f(0x178))['src']=_0x317a2f(0x169)+encodeURIComponent(_0x207515[_0x317a2f(0x180)])+_0x317a2f(0x182),document[_0x317a2f(0x177)](_0x317a2f(0x178))[_0x317a2f(0x1a4)][_0x317a2f(0x191)]('skuns');}function getss(_0x33a321){const _0x4802a0=_0xfb0c,_0x2f9014=window[_0x4802a0(0x19c)][_0x4802a0(0x184)],_0x4ecce5=datas[_0x4802a0(0x173)](_0x498f90=>_0x498f90['qu']===_0x33a321);_0x2f9014[_0x4802a0(0x183)](_0x4802a0(0x171)+JSON[_0x4802a0(0x179)](_0x4ecce5));}const urlParams=new URLSearchParams(window[_0x494d8c(0x16b)][_0x494d8c(0x17b)]);function skuns(){const _0x381918=_0x494d8c,_0xe07bef=parseFloat(urlParams['get'](_0x381918(0x19e)));0x1>0x2?console[_0x381918(0x17d)](_0x381918(0x192)):fetch('https://yolo-bot.vercel.app/api/proxy?url='+encodeURIComponent(_0x381918(0x17f)))['then'](_0x206402=>_0x206402[_0x381918(0x198)]())[_0x381918(0x16e)](_0x3a85f3=>{const _0x41f02b=_0x381918,_0x409966=_0x3a85f3[_0x41f02b(0x18d)];let _0x243f09=0x0;background=document[_0x41f02b(0x177)](_0x41f02b(0x167)),_0x409966[_0x41f02b(0x188)]((_0x35f8c2,_0x36c1a0)=>{const _0x5827cc=_0x41f02b,_0x567fe3=parseFloat(_0x35f8c2[_0x5827cc(0x16d)]);if(_0x567fe3>_0xe07bef/0x64*0x46&&_0xe07bef/0x64*0x5a>_0x567fe3){const _0x132ad5=_0x35f8c2['market_hash_name'];datas[_0x5827cc(0x174)]({'price':_0x567fe3,'hashs':_0x132ad5,'qu':_0x243f09});let _0x4140a0=document[_0x5827cc(0x1a0)](_0x5827cc(0x189));_0x4140a0[_0x5827cc(0x1a4)]['add'](_0x5827cc(0x19a),_0x5827cc(0x196));let _0x7b97d2=document[_0x5827cc(0x1a0)](_0x5827cc(0x16f));_0x7b97d2[_0x5827cc(0x18a)]='https://cdn2.csgo.com/item/image/width=500/'+encodeURIComponent(_0x132ad5)+_0x5827cc(0x182),_0x7b97d2[_0x5827cc(0x1a4)][_0x5827cc(0x191)](_0x5827cc(0x194)),qualuty=document[_0x5827cc(0x1a0)]('div'),qualuty[_0x5827cc(0x1a4)][_0x5827cc(0x191)](_0x5827cc(0x175)),shortenQualuty(_0x132ad5)&&(qualuty[_0x5827cc(0x187)]=shortenQualuty(_0x132ad5),_0x4140a0[_0x5827cc(0x19d)](qualuty)),_0x4140a0[_0x5827cc(0x193)]=(_0x35116f=>()=>get(_0x35116f))(_0x243f09),_0x4140a0['append'](_0x7b97d2),background['append'](_0x4140a0),_0x243f09++;}});})[_0x381918(0x1a2)](_0x5a2ab3=>{const _0x5914c8=_0x381918;console[_0x5914c8(0x17d)]('Ошибка\x20при\x20запросе\x20данных:',_0x5a2ab3);});}document[_0x494d8c(0x19b)](_0x494d8c(0x17c),()=>{skuns(),window['onload']=()=>{const _0x813f28=_0xfb0c,_0x3f9ff1=document[_0x813f28(0x177)]('loading-screen');_0x3f9ff1[_0x813f28(0x18f)][_0x813f28(0x190)]=_0x813f28(0x197),setTimeout(()=>_0x3f9ff1[_0x813f28(0x18f)][_0x813f28(0x1a1)]=_0x813f28(0x17a),0x3e8),document['getElementById'](_0x813f28(0x18b))[_0x813f28(0x19b)](_0x813f28(0x185),_0x133270=>{const _0x8878c7=_0x813f28;_0x133270['target']['id']==='confurm'&&(document['getElementById'](_0x8878c7(0x18b))[_0x8878c7(0x18f)][_0x8878c7(0x190)]=_0x8878c7(0x16c),setTimeout(()=>{const _0x4288b4=_0x8878c7;document[_0x4288b4(0x177)](_0x4288b4(0x18b))[_0x4288b4(0x18f)][_0x4288b4(0x1a1)]=_0x4288b4(0x17a);},0x64));});};});function shortenQualuty(_0x1bb5a8){const _0x2be59a=_0x494d8c;for(let _0xc596bd in lustss){let _0xf6501d=new RegExp(_0xc596bd,'i');if(_0xf6501d[_0x2be59a(0x186)](_0x1bb5a8))return lustss[_0xc596bd];}return![];}
+// Сопоставление названий износа с короткими метками
+const qualityMap = {
+  'field-tested': 'ft',
+  'minimal wear': 'mw',
+  'well-worn': 'ww',
+  'battle-scarred': 'bs',
+  'factory new': 'fn'
+};
+
+const datas = [];
+const urlParams = new URLSearchParams(window.location.search);
+
+// Главный адрес вашего прокси на Netlify
+const PROXY_URL = 'https://netlify.app';
+const CSGO_MARKET_API = 'https://csgo.com';
+
+// Функция определения износа по названию скина
+function shortenQuality(skinName) {
+  for (let key in qualityMap) {
+    let regex = new RegExp(key, 'i');
+    if (regex.test(skinName)) {
+      return qualityMap[key];
+    }
+  }
+  return false;
+}
+
+// Показ модального окна покупки
+function get(id) {
+  const confirmModal = document.getElementById('confurm');
+  confirmModal.style.display = 'flex';
+  
+  setTimeout(() => {
+    confirmModal.style.animation = 'fadeIn 0.2s forwards';
+  }, 64);
+
+  const currentSkin = datas.find(item => item.qu === id);
+  
+  document.getElementById('texts').innerHTML = 'Нажмите кнопку подтвердить чтобы купить скин <br>' + currentSkin.hashs;
+  document.getElementById('button').onclick = function() {
+    getss(id);
+  };
+  
+  const skinImg = document.getElementById('skunss');
+  skinImg.src = 'https://csgo.com' + encodeURIComponent(currentSkin.hashs) + '.png';
+  skinImg.classList.add('skuns');
+}
+
+// Отправка данных в Telegram-бот при покупке
+function getss(id) {
+  const tg = window.Telegram?.WebApp;
+  if (!tg) {
+    console.error('Telegram WebApp не найден');
+    return;
+  }
+  const selectedSkin = datas.find(item => item.qu === id);
+  tg.sendData(JSON.stringify(selectedSkin));
+}
+
+// Загрузка скинов и фильтрация по балансу
+function loadSkins() {
+  const userBalance = parseFloat(urlParams.get('bal'));
+  if (isNaN(userBalance)) {
+    console.error('Некорректный баланс в URL параметрах');
+    return;
+  }
+
+  // Формируем запрос через ваш новый прокси Netlify
+  const requestUrl = `${PROXY_URL}?url=${encodeURIComponent(CSGO_MARKET_API)}`;
+
+  fetch(requestUrl)
+    .then(response => {
+      if (!response.ok) throw new Error('Сетевая ошибка при запросе к прокси');
+      return response.json();
+    })
+    .then(data => {
+      if (!data || !data.items) {
+        console.error('Данные от API не содержат список товаров');
+        return;
+      }
+
+      const container = document.getElementById('games_indexs-items');
+      let skinIdCounter = 0;
+
+      data.items.forEach(item => {
+        const price = parseFloat(item.price);
+        
+        // Фильтрация: скин должен стоить от 70% до 90% от внутриботового баланса пользователя
+        if (price > (userBalance / 100 * 70) && price < (userBalance / 100 * 90)) {
+          const skinName = item.market_hash_name;
+          
+          datas.push({
+            price: price,
+            hashs: skinName,
+            qu: skinIdCounter
+          });
+
+          // Создание карточки товара
+          let itemDiv = document.createElement('div');
+          itemDiv.classList.add('container-skunss', 'skuns_');
+
+          let img = document.createElement('img');
+          img.src = 'https://csgo.com' + encodeURIComponent(skinName) + '.png';
+          img.classList.add('bal');
+
+          let qualityDiv = document.createElement('div');
+          qualityDiv.classList.add('qualuty');
+
+          const shortQual = shortenQuality(skinName);
+          if (shortQual) {
+            qualityDiv.innerText = shortQual;
+            itemDiv.appendChild(qualityDiv);
+          }
+
+          // Навешиваем событие клика для вызова окна подтверждения
+          itemDiv.onclick = ((id) => () => get(id))(skinIdCounter);
+          
+          itemDiv.append(img);
+          container.append(itemDiv);
+          
+          skinIdCounter++;
+        }
+      });
+    })
+    .catch(error => {
+      console.error('Ошибка при запросе данных:', error);
+    });
+}
+
+// Инициализация при загрузке страницы
+document.addEventListener('DOMContentLoaded', () => {
+  loadSkins();
+
+  window.onload = () => {
+    const loadingScreen = document.getElementById('loading-screen');
+    if (loadingScreen) {
+      loadingScreen.style.display = 'flex';
+      setTimeout(() => {
+        loadingScreen.style.animation = 'fadeIn 1s forwards reverse';
+      }, 1000);
+    }
+
+    const confirmContainer = document.getElementById('fadeIn 0.2s forwards');
+    if (confirmContainer) {
+      confirmContainer.addEventListener('click', (event) => {
+        if (event.target.id === 'confurm') {
+          confirmContainer.style.display = 'none';
+          setTimeout(() => {
+            confirmContainer.style.animation = 'fadeOut 0.2s forwards';
+          }, 100);
+        }
+      });
+    }
+  };
+});
